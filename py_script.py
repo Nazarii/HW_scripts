@@ -1,5 +1,5 @@
-#
-#
+# -*- coding: utf-8 -*-
+
 import os
 value1=raw_input('Enter path: ')
 os.chdir(value1)
