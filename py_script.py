@@ -3,6 +3,7 @@
 
 import os
 
+
 def main():
     value1=raw_input('Enter path: ')
     os.chdir(value1)
@@ -12,4 +13,9 @@ def main():
     print('Complete')
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except Exception as e:
+        import sys
+        print('An error occured: {}'.format(e))
+        sys.exit(1)
