@@ -1,4 +1,4 @@
-#
+#!/usr/bin/env python
 #
 import os
 os.system("yum -y install mariadb")
